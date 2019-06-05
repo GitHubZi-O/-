@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#topbar{
+    width: 100%;
+    height: 40px;
+    
+    background-color: #333;
+}
+#topbar .container{
+    width: 1220px;
+    height: 40px;
+    margin:0 auto;
+    line-height: 36px;
+}
+#topbar .container:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#topbar .container .shopcar{
+    position:relative;
+    top:0;
+    right:0;
+    float:right;
+    width:110px;
+    height:40px;
+    background-color: #424242;
+    text-align:center;  
+}
+#topbar .container ul li{
+    float:left;    
+}
+
+#topbar .container ul li .download{
+    display:none;
+    position:absolute;
+    top:40px;
+    left:-35px;
+    z-index:111;
+    width:140px;
+    height:160px;
+    background-color: white;
+    text-align:center;
+    box-shadow:0 0 5px #eee;
+}
+#topbar .container ul li .download .download-tip{
+    position:relative;
+    top:-14px;
+    left:55px;
+    width:0;
+    border-top:none;
+    border-right:14px solid transparent;
+    border-bottom:14px solid white;
+    border-left:14px solid transparent
+}
+#topbar .container ul li .download img{
+    width:90px;
+    height:100px;   
+    padding:0 25px;                                 
+}
+#topbar .container ul li .download span{
+    font-size:15px;
+}
+#topbar .container ul li:nth-child(11){
+    position: relative;
+    top:0;
+    left:0;
+}
+#topbar .container ul li:nth-child(11):hover .download{
+    display:block;
+}
+#topbar .container ul li:nth-child(13){
+    margin-left: 200px;
+}
+#topbar .container ul li a{
+    font-size:13px;
+    color:#b0b09d;
+    padding:0 8px;
+}
+#topbar .container ul li:first-child a{
+    padding-left:0;
+}
+#topbar .container ul li a:hover{
+    color:white;
+}
+#topbar .container .shopcar a{
+    padding:12px 18px;
+    color:#b0b09d;
+    font-size:13px;
+}
+#topbar .container .shopcar:hover{
+    background-color: white;
+}
+#topbar .container .shopcar a:hover{
+    color:#ff6700;
+}
+#topbar .container .shopcar .shopcar-list{
+    display:none;
+    position:absolute;
+    top:40px;
+    right:0;
+    z-index:111;
+    width:300px;
+    height:110px;
+    background-color: #fff;
+    box-shadow:0 0 5px #eee;
+    text-align:center;
+    line-height:110px;
+    font-size:13px;
+    color:#424242;
+}
+#topbar .container .shopcar:hover .shopcar-list{
+    display:block;
+}

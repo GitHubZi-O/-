@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#fix{
+    position:fixed;
+    bottom:100px;
+    right:0;
+    z-index:333;
+    width:80px;
+    height:470px;
+}
+#fix ul li{
+    padding:15px 10px;
+    background-color: #fff;
+    text-align:center;
+    cursor:pointer;
+}
+#fix ul li:last-child{
+    margin-top:20px;
+}
+#fix ul li a{
+    color:#757575;
+}
+#fix ul li:hover a{
+    color:#ff6700;
+}
+#fix ul li a i{
+    display:block;
+    font-size:36px;
+}
+#fix ul li a span{
+    font-size:15px;
+}
+

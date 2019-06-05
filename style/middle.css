@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+#middle{
+    width:1220px;
+    height:850px;
+    margin:0 auto;
+}
+#middle .middle-head{
+    height:90px;
+}
+#middle .middle-head h2{
+    float:left;
+    margin-top:40px;
+    color:#353535;
+    font-weight:300;
+    font-size:25px;
+}
+#middle .middle-head ul li{
+    float:right;
+    padding-top:45px;
+    padding-left:20px;
+}
+#middle .middle-head ul li a{
+    color:#353535;
+    transition:.3s;
+}
+#middle .middle-head ul li a:hover{
+    color:#ff6700;
+    border-bottom:2px solid #ff6700;
+}
+#middle .middle-one{
+    float:left;
+    width:260px;
+    height:600px;
+    margin-right:20px;
+    margin-bottom:30px;  
+}
+#middle:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#middle .middle-one ul:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#middle .middle-two ul:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#middle .middle-one ul li{
+    float:left;
+    transition:.5s;
+}
+#middle .middle-one ul li:first-child{
+    margin-bottom:16px;
+}
+#middle .middle-one ul li img{
+    width:260px;
+    height:290px;
+}
+#middle .middle-one ul li:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 10px 5px #f5f5f5;
+}
+#middle .middle-two ul li{
+    overflow:hidden;
+    position:relative;
+    top:0;
+    left:0;
+    float:left;
+    width:220px;
+    height:290px;
+    margin-right:20px;
+    margin-top:20px;
+    line-height:20px;
+    background-color: #fff;
+    text-align:center;
+    font-size:13px;
+    transition:.5s;
+}
+#middle .middle-two ul li:nth-child(1),
+#middle .middle-two ul li:nth-child(2),
+#middle .middle-two ul li:nth-child(3),
+#middle .middle-two ul li:nth-child(4)
+{
+    margin-top:0;
+}
+#middle .middle-two ul li:nth-child(4)
+{
+    margin-right:0;
+}
+#middle .middle-two ul li:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 10px 5px #e1e1e1;
+}
+#middle .middle-two ul li:hover .tip{
+    top:225px;
+    
+}
+#middle .middle-two ul li a img{
+    width:180px;
+    height:180px;
+    margin:0 20px;
+}
+#middle .middle-two ul li a span{
+    color:#333;
+    background-color:#fff;
+}
+#middle .middle-two ul li span{
+    padding:4px 10px;
+    color:white;
+
+}
+#middle .middle-two ul li .green{
+    background-color: #83c44e;
+}
+#middle .middle-two ul li .red{
+    background-color: #e53935;
+}
+#middle .middle-two ul li p{
+    padding:6px 0;
+    font-size:10px;
+    color:#b0b0b0;
+}
+#middle .middle-two ul li strong{
+    display:block;
+    color:#ff6700;
+    font-weight: 500;
+}
+#middle .middle-two ul li .tip{
+    position:absolute;
+    top:295px;
+    left:0;
+    width:170px;
+    height:45px;
+    line-height:12px; 
+    padding:10px 25px;
+    background-color: #ff6700;
+    text-align:left;
+    
+    transition:.3s;
+}
+#middle .middle-two ul li .tip span{
+    padding:0;
+    font-size:11px;
+}
+#middle .middle-two ul li .tip p{
+    color:#ffb999;
+}
+#middle .middle-two ul .browse-more{
+    float:left;
+    width:220px;
+    height:290px;
+    margin-top:20px;
+    background-color: #f5f5f5;
+    text-align:center;
+}
+#middle .middle-two ul .browse-more ul li{
+    width:220px;
+    height:75px;
+    background-color:#fff;
+    padding:30px 0;
+}
+
+#middle .middle-two ul .browse-more ul li:first-child{
+    margin-bottom:20px;
+}
+#middle .middle-two ul .browse-more ul li:last-child{
+    padding-top:40px;
+    height:65px;
+}
+#middle .middle-two ul .browse-more ul li .price{
+    float:left;
+    width:90px;
+    padding-left:30px;
+    text-align:left;
+}
+#middle .middle-two ul .browse-more ul li img{
+    float:right;
+    width:80px;
+    height:80px;
+    margin-right:20px;
+    background-color:#fff;
+    cursor:pointer;
+}
+#middle .middle-two ul .browse-more ul li .price span{
+    padding-left:0;
+    padding-right:5px;
+    font-size:14px;
+    color:#353535;
+    cursor:pointer;
+}
+#middle .middle-two ul .browse-more ul li:last-child .price span{
+    font-size:20px;
+}
+#middle .middle-two ul .browse-more ul li:last-child .price strong{
+    
+    font-size:11px;
+    color:#353535;
+}
+#middle .middle-two ul .browse-more ul li:last-child a{
+    margin-top:30px;
+    font-size:50px;
+    color:#ff6700;
+}
+#middle .middle-width img{
+    width:100%;
+    height:130px;
+    cursor:pointer;
+}

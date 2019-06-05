@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#site{
+    width:100%;
+    background-color: #f5f5f5;
+}
+#site .site-logo{
+    width:1220px;
+    margin:0 auto;
+    padding-top:30px;
+}
+#site .site-logo:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+}
+#site .site-logo h2{
+    float:left;
+    width:60px;
+    height:60px;
+    font-size:0;
+    background:#ff6700 url("../images/head-nav/logo.png") no-repeat 0 0 / cover;
+}
+#site .site-list{
+    float:right;
+    width:1150px;
+    margin-left:10px;
+}
+#site .site-list ul li{
+    font-size:13px;
+    color:#b0b0b0;
+    line-height:20px;
+}
+#site .site-list ul li:first-child a{
+    padding-right:5px;
+    border-right:1px solid #757575;
+    color:#757575;
+}
+#site .site-list ul li:first-child a:last-child{
+    padding-right:0;
+    border-right:none;
+}
+#site .site-list ul li a{
+    color:#b0b0b0;
+}
+#site .site-list ul li a:hover{
+    color:#ff6700;
+}
+#site .site-list ul li img{
+    float:left;
+    width:98px;
+    height:28px;
+    margin:10px 10px 0 0;  
+}
+#site .site-width{
+    float:left;
+    width:100%;
+    padding:24px 0;
+    font-size:20px;
+    font-family:"楷体";
+    color:#c1c1c1;
+    text-align:center;
+}

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+#banner-bottom{
+    width:1220px;
+    height:380px;
+    margin:20px auto 0;
+}
+#banner-bottom:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#banner-bottom .shopping-channel ul{
+    float: left;
+    width:260px;
+    height:180px;
+    margin-bottom:30px;
+}
+#banner-bottom .shopping-browse ul{
+    float:right;
+}
+#banner-bottom .shopping-width img{
+    width:100%;
+    height:130px;
+    cursor:pointer;
+}
+#banner-bottom .shopping-browse img:hover{
+    box-shadow:0 1px 3px #333;
+}
+
+#banner-bottom .shopping-browse ul li{
+    float:left;
+    margin-right:20px;
+}
+#banner-bottom .shopping-browse ul li:last-child{
+    margin-right:0;
+}
+#banner-bottom .shopping-browse ul li img{
+    width:300px;
+    height:180px;
+    cursor:pointer;
+}
+#banner-bottom .shopping-channel ul:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#banner-bottom .shopping-channel ul li{
+    float:left;
+    width:86px;
+    height:90px;
+    background-color:rgba(0,0,0,.6);
+    text-align:center;
+}
+#banner-bottom .shopping-channel ul li i{
+    padding:0 24px;
+    font-size:30px;
+    color:#cfcdcb;
+    vertical-align:-30px;
+    
+}
+#banner-bottom .shopping-channel ul li span{
+    padding-bottom:26px;
+    font-size:13px;
+    color:#cfcdcb;
+}
+#banner-bottom .shopping-channel ul li:before{
+    content:"";
+    display:block; 
+    height:1px;
+    width:70px;
+    margin:0 8px;
+    background-color: #cfcdcb;
+}
+#banner-bottom .shopping-channel ul li:nth-child(1):before{
+    content:"";
+    display:none;
+}
+#banner-bottom .shopping-channel ul li:nth-child(2):before{
+    content:"";
+    display:none;
+}
+#banner-bottom .shopping-channel ul li:nth-child(3):before{
+    content:"";
+    display:none;
+}
+#banner-bottom .shopping-channel ul li:after{
+    content:"";
+    display:block; 
+    height:70px;
+    width:1px;
+    margin:-65px 0;
+    background-color: #cfcdcb;
+}
+#banner-bottom .shopping-channel ul li:nth-child(1):after{
+    content:"";
+    display:none;
+}
+#banner-bottom .shopping-channel ul li:nth-child(4):after{
+    content:"";
+    display:none;
+}

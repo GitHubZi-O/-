@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#main{
+    width:1220px;
+    height:860px;
+    margin:0 auto;
+}
+#main .main-head:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#main .main-head{
+    height:100px;
+}
+#main .main-head h2{
+    float:left;
+    margin:40px 0 10px;
+    color:#353535;
+    font-weight:300;
+    font-size:25px;
+}
+#main .iconfont{
+    float:right;
+    padding-top:45px;
+    color:#353535;
+    font-size:18px;
+    font-weight:500;
+}
+#main .main-head a:hover {
+    color:#ff6700;
+}
+#main .main-head a:hover i{
+    background-color:#ff6700;
+}
+#main .main-head a i{
+    padding:4px;
+    margin-left:10px;
+    font-size:16px;
+    color:#fffffd;
+    background-color: #b0b0b0;
+    border-radius:12px;
+}
+#main .main-title{
+    cursor:pointer;
+    transition:.5s;
+}
+#main .main-title img{
+    float:left;
+    width:260px;
+    height:600px;
+    margin:0px 20px 30px 0;
+}  
+#main .main-title:hover{
+    transform:translateY(-3px);
+    box-shadow:0 5px 5px #f5f5f5;
+}  
+#main .main-new ul li{
+    float:left;
+    width:220px;
+    height:290px;
+    margin-right:20px;
+    margin-top:20px;
+    background-color: #fff;
+    text-align:center;
+    transition:.5s;
+}
+#main .main-new ul li:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 10px 5px #e1e1e1;
+}
+#main .main-new ul li:nth-child(1),
+#main .main-new ul li:nth-child(2),
+#main .main-new ul li:nth-child(3),
+#main .main-new ul li:nth-child(4)
+{
+    margin-top:0;
+}
+#main .main-new ul li:nth-child(4),
+#main .main-new ul li:nth-child(8)
+{
+    margin-right:0;
+}
+#main .main-new ul li span{
+    padding:4px 10px;
+    font-size:12px;
+    color:#fff;
+    background-color: #83c44e;
+}
+#main .main-new ul li a span{
+    padding:0;
+    font-size:13px;
+    color:#333;
+    background-color: #fff;
+}
+#main .main-new ul li .red{
+    background-color: #e53935;
+}
+#main .main-new ul li p{
+    padding:8px 0;
+    font-size:10px;
+    color:#b0b0b0;
+}
+#main .main-new ul li strong{
+    color:#ff6700;
+    font-weight: 500;
+    font-size:13px;
+}
+#main .main-new ul li a img{
+    width:180px;
+    height:180px;
+    margin:0 20px;
+}
+#main .main-width img{
+    width:100%;
+    height:130px;
+    cursor:pointer;
+}

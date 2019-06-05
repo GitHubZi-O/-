@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+#header{
+    position: relative;
+    height:100px;
+}
+#header .container{
+    width:1220px;
+    height:100px;
+    margin:0 auto;
+}
+#header .container:before{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#header .container .logo h1{
+    float:left;
+    width:50px;
+    height:50px;
+    margin-top:20px;
+    background:#ff6700 url("../images/head-nav/logo.png") no-repeat 0 0 / cover;
+    font-size:0;
+}
+#header .container .nav{
+    margin-left:200px;
+}
+#header .container .nav ul li{
+    float:left;
+    padding:40px 10px;
+}
+#header .container .nav ul li a{
+    padding:40px 0 ;
+    font-weight: 500;
+    color:#333;  
+}
+#header .container .nav ul li a:hover{
+    color:#ff6700;
+}
+#header ul li .content{
+    position: absolute;
+    top:100px;
+    left:0;
+    z-index:111;
+    width:100%;
+    height:0;
+    background-color: #fff;
+    transition:.25s;
+}
+#header .container .nav a:hover + .content{
+    height:250px;
+    border-top:1px solid #e0e0e0;
+    box-shadow:0 1px 1px #b0b0b0;
+}
+#header .container .nav a:hover + .content ul li{
+    display:block;
+}
+#header .content .content-item{
+    width:1200px;
+    margin:0 auto;
+    padding:0 10px;
+}
+#header .content .content-item ul li{
+    display:none;
+    position: relative;
+    width:200px;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#header .content .content-item ul li:after{
+    content:"";
+    position:absolute;
+    top:50px;
+    left:0;
+    z-index:222;
+    display:block;
+    width:1px;
+    height:100px;
+    background-color: #e0e0e0;
+}
+#header .content .content-item ul li:nth-child(2):after{
+    content:"";
+    display:none;
+}
+#header .content .content-item ul li span{
+    padding:0 10px;
+    font-size:14px;
+    color:#ff6700;
+    border:1px solid #ff6700;
+}
+#header .content .content-item ul li .special{
+    opacity:0;
+}
+#header .content .content-item ul li img{
+    width:180px;
+    height:130px;
+    margin:15px 0;
+}
+#header .content .content-item ul li i{
+    display:block;
+    font-style:normal;
+    font-size:14px;
+    color:#333;
+}
+#header .content .content-item ul li strong{
+    color:#ff6700;
+    font-weight: 500;
+    font-size:13px;
+}
+#header .container .search{
+    position:relative;
+    top:0;
+    left:-4px;
+    float:right;
+    width:290px;
+    height:50px;
+    margin-top:20px; 
+}
+#header .container .search input{
+    width:220px;
+    height:100%;
+    padding:0 10px;
+    border:1px solid #e0e0e0;
+}
+#header .container .search .search-list{
+    display:none;
+    position:relative;
+    top:0;
+    left:0;
+    z-index:222;
+    width:240px;
+    border:1px solid #ff6700;
+    background-color: #fff;
+}
+#header .container .search .search-list ul li{
+    line-height:30px;
+    padding:0 10px;
+}
+#header .container .search .search-list ul li:hover{
+    background-color: #fafafa;
+}
+#header .container .search .search-list ul li a{
+    font-size:13px;
+    color:#333; 
+}
+#header .container .search .search-tip{
+    position:absolute;
+    top:15px;
+    left:125px;
+}
+#header .container .search .search-tip a{
+    font-size:13px;
+    padding:2px 4px;
+    background-color: #eee;
+    color:#333;
+}
+#header .container .search .search-tip a:hover{
+    color:white;
+    background-color: #ff6700;
+}
+#header .container .search input:focus + .search-tip a{
+    display:none;
+
+}
+#header .container .search input:focus{
+    border-color: #ff6700;
+}
+#header .container .search input:focus ~ .search-btn{
+    border-color: #ff6700;
+}
+#header .container .search input:focus ~ .search-list{
+    display:block;
+}
+#header .container .search:after{
+    content:"";
+    display:block; 
+    height:0;
+    clear:both;
+}
+#header .container .search .search-btn{
+    position:absolute;
+    top:0;
+    left:242px;
+    float:right;
+    width: 50px;
+    height:50px;
+    border:1px solid #e0e0e0;
+}
+#header .container .search .search-btn i{
+    padding:12px;
+    line-height:50px;
+    font-size:30px;
+    text-align:center;
+    color:#e0e0e0;
+}
+#header .container .search .search-btn:hover{
+    background-color: #ff6700;
+}
+#header .container .search .search-btn:hover i{
+    color:white;
+}
